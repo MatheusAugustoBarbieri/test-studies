@@ -1,0 +1,22 @@
+{
+  "name": "estudos-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.1",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cart checkout deve retornar um objeto com o total e a lista de itens 1`] = `
+Object {
+  "itens": Array [
+    Object {
+      "product": Object {
+        "price": 35388,
+        "title": "Tenis",
+      },
+      "quantity": 3,
+    },
+    Object {
+      "product": Object {
+        "price": 41872,
+        "title": "Tenis",
+      },
+      "quantity": 1,
+    },
+  ],
+  "total": 148036,
+}
+`;
+
+exports[`cart checkout summary deve retornar valores que sejam maiores que 0 1`] = `
+Object {
+  "itens": Array [
+    Object {
+      "product": Object {
+        "price": 35388,
+        "title": "Tenis",
+      },
+      "quantity": 3,
+    },
+    Object {
+      "product": Object {
+        "price": 41872,
+        "title": "Tenis",
+      },
+      "quantity": 5,
+    },
+  ],
+  "total": 315524,
+}
+`;
+
+exports[`cart checkout summary deve retornar valores que sejam maiores que 0 1`] = `
+Object {
+  "itens": Array [
+    Object {
+      "product": Object {
+        "price": 35388,
+        "title": "Tenis",
+      },
+      "quantity": 3,
+    },
+    Object {
+      "product": Object {
+        "price": 41872,
+        "title": "Tenis",
+      },
+      "quantity": 5,
+    },
+  ],
+  "total": 315524,
+}
+`;

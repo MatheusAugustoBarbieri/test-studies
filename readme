@@ -1,2 +1,73 @@
-Olá, você está no meu repositório onde guardo o conteudo que estudo sobre testes.
-O conteúdo está dividido em branches.
+    ATENÇÃO: SEMPRE ESCREVER TESTES COM TDD
+    › 1 Escreva o teste e veja ele falhar
+    › 2 Faça o teste passar
+    › 3 refatore o codigo
+    ›Fique nesse ciclo ate que a funcionalidade esta funcionando 100%
+    
+    Vantagens do TDD:
+    › Melhorar a implementação
+    › Facilita implementações mais simples
+    › Facilita a escrita dos testes
+    › Detalhes de implementação frescos na mente
+    › Menor tempo dedicado a Bug fixing(vai demorar mais tempo para desenvolver mas menos tempo ou nenhum tempo para corrigir bugs)
+
+    Porque testar:
+    › Confiança ao refatorar
+    › Confiança ao incluir novas funcionalidades
+    › Confiança ao atualizar dependências
+    › Facilita a compreensão da implementação (pois os testes funcionam como uma documentação)
+    › Funciona como documentação
+    
+    O que testar:
+    › Tudo o que fizer sentido testar! (se alguem no futuro ou eu mudar algo, pode quebrar o sistema em algum lugar? se sim, faça um teste)
+    › Devo deixar um comentário para explicar o que eu fiz aqui? Se sim faça um teste que servira como documento
+    
+    Tipos de testes:
+    ›Unit Test
+    ›integration test
+    ›End to ENd (E2E) Tests
+    ›CI/CD
+
+    Ferramentas vistas:
+    ›Jest
+    ›Cypress
+
+    Bibliotecas:
+    ›Testing Library
+    ›Enzyme - react
+    ›Vue Test Utils - vue
+    
+
+    Outros:
+    ›+num1 se nao for numero transforma em 0 ---- (LEMBRAR)
+    ›parseInt se nao for numero transforma em NaN
+    ›Object.entries
+    ›join()
+    ›split()
+    ›Object.fromEntries
+    ›splice()
+    ›find()
+    ›reduce()
+    ›if(this.contition?.percentage) === if(this.condition && this.condition.percentage) ---- (LEMBRAR)
+
+    funções jest:
+    › expect
+    ›toBe
+    ›toEqual
+    ›.not.
+    ›.toThrowError()
+    ›.toMatchSnapshot()
+    ›.toBeGreaterThan()
+
+
+
+    comandos:
+    --watchAll = jest fica observando{
+        Watch Usage
+        › Press f to run only failed tests.
+        › Press o to only run tests related to changed files.
+        › Press p to filter by a filename regex pattern.
+        › Press t to filter by a test name regex pattern.
+        › Press q to quit watch mode.
+        › Press Enter to trigger a test run.
+    }
