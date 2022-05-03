@@ -33,7 +33,7 @@ exports[`ProductCard Deve ser igual ao snapshot 1`] = `
     <h3
       class="text-gray-700 uppercase"
     >
-      blaba
+      blabla
     </h3>
      
     <span

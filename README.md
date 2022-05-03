@@ -21,8 +21,10 @@ Lembrar:
 > wrapper.html()
 > wrapper.text()
 > wrapper.text().toContain('')
+> wrapper.find('button')
 > .toMatchSnapshot()
 > beforeEach(()=> {})
 > afterEach(()=> {})
+> wrapper.find('button').trigger('click');
 
 > yarn add -D @types/jest

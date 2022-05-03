@@ -5,6 +5,7 @@
       :style="`background-image: url('https://images.unsplash.com/photo-1495856458515-0637185db551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');`"
     >
       <button
+        @click="addToCard"
         class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
       >
         <svg
@@ -35,6 +36,11 @@ export default {
     product: {
       type: Object,
       required: true,
+    },
+  },
+  methods: {
+    addToCard() {
+      this.$emit('addToCard', { product: this.product });
     },
   },
 };
